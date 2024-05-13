@@ -3,8 +3,8 @@ import { Button } from "./components/ui/button";
 const LevelUp = () => {
   return (
     <div className="bg-secondary p-8 flex flex-col items-center text-center space-y-10">
-      <h2 className="font-bold flex flex-col text-9xl">
-        Level <br /> <span className="text-primary">Up</span>
+      <h2 className="flex flex-col text-9xl">
+        Level <br /> <span className="text-primary font-bold">Up</span>
       </h2>
       <p className="text-3xl ">
         When you take actions, <br />

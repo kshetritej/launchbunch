@@ -1,5 +1,6 @@
 import { Card, CardDescription, CardTitle , CardFooter} from "@/components/ui/card";
 import { Button } from "./components/ui/button";
+import { ArrowUpRight } from "lucide-react";
 type CustomCardProps = {
   title: string;
   icon: any;
@@ -14,7 +15,7 @@ const CustomCard = ({ title, icon, desc }: CustomCardProps) => {
         <div className="w-[40px] bg-primary p-4 opacity-40 rounded-full absolute left-[40%] top-20"></div>
         <CardDescription className="text-center">{desc}</CardDescription>
         <CardFooter className="p-4">
-          <Button variant={'custom'} size={'sm'} className="rounded-full">-----{">"}</Button>
+          <Button variant={'custom'} size={'sm'} className="rounded-full"><ArrowUpRight/></Button>
         </CardFooter>
       </Card>
     </div>
