@@ -13,7 +13,6 @@ const Navbar = () => {
           </li>
         ))}
       </ul>
-
       <Button variant={'custom'} size={'lg'}>Contact</Button>
     </div>
   );
