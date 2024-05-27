@@ -6,6 +6,7 @@ import {
 } from "@/components/ui/card";
 import { Badge } from "./components/ui/badge";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+//@ts-expect-error i don't have problem with having any properties for cardwidth
 const BlogCard = ({ cardWidth }) => {
   return (
     <div>
