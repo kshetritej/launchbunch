@@ -2,9 +2,10 @@ import About from "./About";
 import Header from "./Header";
 import Navbar from "./Navbar";
 import Services from "./Services";
-import Projects from "./Projects";
 import LevelUp from "./LevelUp";
 import Footer from "./Footer";
+import CaseStudies from "./CaseStudies";
+import Blogs from "./Blogs";
 const Homepage = () => {
   return (
     <div>
@@ -12,7 +13,8 @@ const Homepage = () => {
       <Header />
       <About />
       <Services />
-      <Projects />
+      <CaseStudies/>
+      <Blogs/>
       <LevelUp />
       <Footer />
     </div>
