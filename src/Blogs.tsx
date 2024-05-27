@@ -1,7 +1,7 @@
 import BlogCard from "./BlogCard";
 const Blogs = () => {
   return (
-    <div className="text-center p-8 bg-secondary">
+    <div className="text-center p-8 ">
       <h2 className="text-3xl font-semibold">Blogs</h2>
       <p>
         Explore our curated articles for the latest trends, expert insights, and

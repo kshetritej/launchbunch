@@ -13,15 +13,20 @@ const BlogCard = ({ cardWidth }) => {
       <Card
         className={`w-[${cardWidth}] p-4 flex text-left flex-col relative shadow-md bg-[url(src/assets/img/blogimage.webp)] backdrop-blur-lg bg-cover text-white`}
       >
-        <CardHeader></CardHeader>
-        <CardFooter className=" flex flex-col">
+          <Badge
+            variant="secondary"
+            className="bg-secondary absolute top-5 left-5"
+          >
+            Marketing
+          </Badge>
+        <CardHeader className="p-16 "></CardHeader>
+        <div className=" flex flex-col">
           <div className="flex text-left">
-            <Badge variant="secondary" className="bg-secondary absolute top-5 left-5" >Marketing</Badge>
             <Avatar>
               <AvatarImage src="https://github.com/shadcn.png" />
               <AvatarFallback>CN</AvatarFallback>
             </Avatar>
-            <div className="text-left mx-2">
+            <div className="text-left px-2 tracking-tight">
               <p className="font-semibold">Author</p>
               <p>Read Time</p>
             </div>
@@ -35,7 +40,7 @@ const BlogCard = ({ cardWidth }) => {
             Discover how personalized digital marketing strategies can elevate
             engagement levels and drive conversions like never before.
           </CardDescription>
-        </CardFooter>
+        </div>
       </Card>
     </div>
   );

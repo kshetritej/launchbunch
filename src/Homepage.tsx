@@ -6,6 +6,7 @@ import LevelUp from "./LevelUp";
 import Footer from "./Footer";
 import CaseStudies from "./CaseStudies";
 import Blogs from "./Blogs";
+import Testimonials from "./Testimonials";
 const Homepage = () => {
   return (
     <div>
@@ -15,6 +16,7 @@ const Homepage = () => {
       <Services />
       <CaseStudies/>
       <Blogs/>
+      <Testimonials/>
       <LevelUp />
       <Footer />
     </div>
