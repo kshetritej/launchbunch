@@ -1,5 +1,4 @@
 import About from "./About";
-import Clients from "./Clients";
 import Header from "./Header";
 import Navbar from "./Navbar";
 import Services from "./Services";
@@ -11,7 +10,6 @@ const Homepage = () => {
     <div>
       <Navbar />
       <Header />
-      <Clients />
       <About />
       <Services />
       <Projects />
