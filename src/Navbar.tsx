@@ -4,7 +4,7 @@ import { Button } from "./components/ui/button";
 const Navbar = () => {
   const navItems = ["Home", "About", "Services", "Blogs", "Work", "FAQs"];
   return (
-    <div className="flex justify-around shadow-sm p-4 place-items-center">
+    <div className="bg-primary/50 text-background flex justify-around shadow-sm p-4 place-items-center">
       <div className="logo font-bold text-3xl ">LaunchBunch</div>
       <ul className="flex gap-4 ">
         {navItems.map((item) => (
